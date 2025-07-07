@@ -69,6 +69,7 @@ jobs:
           --vault-name myKeyVault-01 \
           --query value -o tsv)
         echo "SECRET=$SECRET" >> $GITHUB_ENV
+      
 
 
 
